@@ -4,6 +4,7 @@ const inquirer = require("inquirer");
 const util = require('util');
 const markdown = require("./utils/generateMarkdown");
 const { writeFile, copyFile } = require('./utils/generate-site');
+const api = require('./utils/api.js');
 
 // TODO: Create an array of questions for user input
 
@@ -122,6 +123,5 @@ async function init() {
         console.log(error);
     }
 };
-writeToFile()
 // Function call to initialize app
 init();
