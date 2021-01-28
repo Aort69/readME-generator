@@ -8,7 +8,7 @@
   
   *The what, why, and how:* 
   
-  This project is to help those in need of an easy auot populating readme.md file for their project that is licensed and easy to read
+  The purpose of this project is to help those in need of a fast, easy auto populating lisenced readme.md file for all of their project needs.
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -19,13 +19,7 @@
   
   *Steps required to install project and how to get the development environment running:*
   
-  You will need to instiall both npm, axios (found in npm), and inquirer(also found in npm).
-  
-  ## Usage 
-  
-  *Instructions and examples for use:*
-  
-  undefined
+  You will need to install npm, axios (found in npm) and inquirer (also found in npm).
   
   ## License
   

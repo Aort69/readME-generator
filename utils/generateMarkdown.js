@@ -52,21 +52,6 @@ function generateMarkdown(userResponses, userInfo) {
   ${userResponses.installation}`
   };
   
-
-  // Optional Usage section
-  if (userResponses.usage !== '') {
-  
-  draftMarkdown +=
-  
-  `
-  
-  ## Usage 
-  
-  *Instructions and examples for use:*
-  
-  ${userResponses.usage}`
-  };
-  
   
   // Optional Contributing section
   if (userResponses.contributing !== '') {
