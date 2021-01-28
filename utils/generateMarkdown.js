@@ -63,20 +63,7 @@ function generateMarkdown(userResponses, userInfo) {
   
   ${userResponses.contributing}`
   };
-  
 
-  // Optional Tests section
-  if (userResponses.tests !== '') {
-  
-  draftMarkdown +=
-  `
-  
-  ## Tests
-  
-  *Tests for application and how to run them:*
-  
-  ${userResponses.tests}`
-  };
 
 
   // License section is required
