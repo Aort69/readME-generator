@@ -2,8 +2,7 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
 const util = require('util');
-const markdown = require("./utils/generateMarkdown");
-const { writeFile, copyFile } = require('./utils/generate-site');
+const generateMarkdown = require("./utils/generateMarkdown");
 const api = require('./utils/api.js');
 
 // TODO: Create an array of questions for user input
@@ -61,11 +60,6 @@ const questions = [
         type: 'input',
         message: "If applicable, describe the steps required to install your project for the Installation section.",
         name: 'installation'
-    },
-    {
-        type: 'input',
-        message: "Provide instructions and examples of your project in use for the Usage section.",
-        name: 'usage'
     },
     {
         type: 'input',
